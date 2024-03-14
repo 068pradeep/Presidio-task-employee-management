@@ -10,7 +10,7 @@ export default function Project_states(props) {
   const fetchDataFromBackend = async () => {
     try {
       //console.log("here");
-      const response = await fetch(`/`, {
+      const response = await fetch(`/getdata`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

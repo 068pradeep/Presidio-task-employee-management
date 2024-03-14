@@ -37,7 +37,7 @@ function writeDataFile(data) {
 
 let port = 5000;
 
-app.get("/", (req, res) => {
+app.get("/getdata", (req, res) => {
  // console.log("Pradeep fro data reading");
   const records = readDataFile();
   //console.log(records);
