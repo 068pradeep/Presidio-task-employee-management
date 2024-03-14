@@ -1,48 +1,44 @@
-Dependencies:
+# Employee Management System
 
-Express: Web framework for Node.js.
+Welcome to the Employee Management System, a user-friendly web application designed to efficiently handle employee records with ease. Below, you'll find a comprehensive guide to using the system effectively.
 
-Body-parser: Middleware to parse incoming request bodies.
+## Features
 
-Cors: Middleware to enable Cross-Origin Resource Sharing.
+- **Create**: Easily add new employees to the system by providing their name, age, salary, and department.
+- **Read**: Access a detailed list of all employees along with their respective information.
+- **Update**: Modify existing employee details seamlessly within the system.
+- **Delete**: Remove employees from the records effortlessly.
+- **Sort**: Filter employees based on specific criteria like name or salary range.
+- **Search**: Quickly find employees by searching for their name or department.
+- **Responsive Design**: Enjoy a seamless experience across various devices and screen sizes.
 
-fs: File system module to read and write files.
+## Installation
 
+Follow these steps to run the Employee Management System locally:
 
-Express Setup:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install`.
+4. Start the server with `node index.js`.
+5. Open your web browser and go to `localhost:5000`.
+6. Navigate to the `frontend` directory.
+7. Run `npm start`.
 
-Creates an Express application.
-Uses body-parser and cors middlewares for request parsing and enabling cross-origin requests.
+## Technology Stack
 
-Routes:
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **Database**: JSON
+- **Styling**: CSS
 
-GET "/": Reads employee records from a file (test.txt) and returns the data as JSON.
+## Application Usage
 
-POST "/addemployee": Adds a new employee record to the file and returns the updated data as JSON.
+1. **View Employees**: Upon launching the application, you'll see a comprehensive list of all employees along with their details.
+2. **Add Employee**: Simply click on the "Add Employee" button to include a new employee in the system. Fill in the necessary details and click "Save".
+3. **Edit Employee**: Update employee information by clicking on the "Edit" button next to their details.
+4. **Delete Employee**: To remove an employee from the records, click on the "Delete" button.
+5. **Filter and Search**: Utilize the filter and search functionalities to narrow down the list of employees based on specific criteria.
 
-GET "/getemployeebyage/:id": Retrieves employees by age from the file and returns the filtered data as JSON.
+## Live Demo
 
-GET "/getemployeebyname/:id": Retrieves employees by name from the file and returns the filtered data as JSON.
-
-PUT "/updateemployee": Updates an existing employee record in the file based on the provided index and returns the updated data as JSON.
-
-DELETE "/deleteemployee/:id": Deletes an employee record from the file based on the provided name and returns the updated data as JSON.
-
-File Operations:
-
-Reads and writes employee records to/from a file (test.txt).
-
-File content is processed to create a structured representation of employee data.
-
-Server Initialization:
-
-Listens on port 5000 for incoming requests.
-
-Outputs server listening message on successful initialization.
-
-Usage:
-
-To add, update, delete, or retrieve employee data, clients can make HTTP requests to the corresponding endpoints.
-Note:
-
-This code uses a simple text file (test.txt) to store employee records, with each line representing a record and space-separated values for different attributes (name, age, dob, salary, department).
+Experience the Employee Management System live by visiting the [Demo Link](https://presidio-task-employee-management.onrender.com).
