@@ -10,7 +10,7 @@ export default function Project_states(props) {
   const fetchDataFromBackend = async () => {
     try {
       //console.log("here");
-      const response = await fetch(`${path_to_backend}/`, {
+      const response = await fetch(`/`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -39,7 +39,7 @@ export default function Project_states(props) {
   const updateEmployee = async (data, index) => {
     try {
       const response = await fetch(
-        `${path_to_backend}/updateemployee/${index}`,
+        `/updateemployee/${index}`,
         {
           method: "PUT",
           headers: {
@@ -63,7 +63,7 @@ export default function Project_states(props) {
   const deleteEmployee = async (index) => {
     try {
       const response = await fetch(
-        `${path_to_backend}/deleteemployee/${index}`,
+        `/deleteemployee/${index}`,
         {
           method: "DELETE",
           headers: {
@@ -85,7 +85,7 @@ export default function Project_states(props) {
 
   const insertEmployee = async (data) => {
     try {
-      const response = await fetch(`${path_to_backend}/addemployee`, {
+      const response = await fetch(`/addemployee`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
