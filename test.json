@@ -1,0 +1,82 @@
+[
+  {
+    "firstname": "Amit",
+    "lastname": "Patel",
+    "age": "29",
+    "dob": "1993-07-12",
+    "salary": "85000",
+    "department": "Finance"
+  },
+  {
+    "firstname": "Anita",
+    "lastname": "Kumar",
+    "age": "32",
+    "dob": "1990-11-25",
+    "salary": "78000",
+    "department": "HR"
+  },
+  {
+    "firstname": "Ravi",
+    "lastname": "Sharma",
+    "age": "26",
+    "dob": "1998-04-18",
+    "salary": "72000",
+    "department": "Marketing"
+  },
+  {
+    "firstname": "Priya",
+    "lastname": "Yadav",
+    "age": "27",
+    "dob": "1997-08-03",
+    "salary": "79000",
+    "department": "Finance"
+  },
+  {
+    "firstname": "Vikas",
+    "lastname": "Verma",
+    "age": "30",
+    "dob": "1992-12-10",
+    "salary": "88000",
+    "department": "IT"
+  },
+  {
+    "firstname": "Sakshi",
+    "lastname": "Jain",
+    "age": "33",
+    "dob": "1989-06-21",
+    "salary": "92000",
+    "department": "HR"
+  },
+  {
+    "firstname": "Rahul",
+    "lastname": "Sharma",
+    "age": "29",
+    "dob": "1993-09-08",
+    "salary": "82000",
+    "department": "IT"
+  },
+  {
+    "firstname": "Neeraj",
+    "lastname": "Singh",
+    "age": "28",
+    "dob": "1994-02-14",
+    "salary": "85000",
+    "department": "Finance"
+  },
+  {
+    "firstname": "Priyanka",
+    "lastname": "Malhotra",
+    "age": "31",
+    "dob": "1991-10-05",
+    "salary": "87000",
+    "department": "Marketing"
+  },
+  {
+    "firstname": "Deepak",
+    "lastname": "Kumar",
+    "age": "35",
+    "dob": "1987-03-30",
+    "salary": "90000",
+    "department": "IT"
+  }
+]
